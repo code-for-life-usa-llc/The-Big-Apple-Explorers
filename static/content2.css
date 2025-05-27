@@ -1,0 +1,67 @@
+#banner {
+    display: flex;
+    background-image: url(https://media3.giphy.com/media/cMhglZMLwT8e1jYkfC/200w.gif?cid=6c09b952e6p2lx9852a9co7irjqw8g5pqwpw4pgv99ulbcpk&ep=v1_gifs_search&rid=200w.gif&ct=g);
+    border: 15px solid black;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    background-attachment: inherit;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.203);
+    color: rgb(0, 72, 255);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#nav {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+#heading {
+    color: white;
+}
+
+body {
+    background-color: #7C8187;
+    color: #FFFFFF;
+}
+
+#z {
+    width: 300px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-width: 5px;
+}
+
+.mother-box {
+    height: 1050px;
+    width: 100%;
+    border: 5px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.yellow,
+.blue,
+.red {
+    height: 90%;
+    width: 250px;
+    font-size: 18px;
+}
+
+#t {
+    font-size: 18px;
+}
+
+h1{font-size: 45px;}

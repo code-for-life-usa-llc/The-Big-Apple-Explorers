@@ -1,0 +1,117 @@
+body {
+    background-color: #131316;
+    color: #FFFFFF;
+    font-family: 'cursive';
+    padding: 0%;
+    margin: 0%;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none
+    }
+}
+
+.liberty {
+    border-style: solid;
+    color: rgb(235, 102, 0);
+    width: 50%;
+}
+
+h2 {
+    margin-left: 5px;
+}
+
+.empire {
+    border-style: solid;
+    color: rgb(7, 255, 2);
+    display: flex;
+    width: 50%;
+
+}
+
+.flatiron {
+    border-style: solid;
+    color: cadetblue;
+    display: flex;
+    width: 50%;
+
+}
+
+.flatiron:hover {
+    width: 52%;
+    transition-duration: 1s;
+}
+
+.empire:hover {
+    width: 52%;
+    transition-duration: 1s;
+}
+
+.liberty:hover {
+    width: 52%;
+    transition-duration: 1s;
+}
+
+
+#banner {
+    display: flex;
+    background-image: url(https://media0.giphy.com/media/cQhmYBg9qPaLYdqajA/giphy.gif?cid=6c09b952quejhkcq4ufj6keb0n4gkxbnspmm0sfun83qigmf&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g);
+    border: 15px solid black;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    background-attachment: inherit;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.203);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#nav {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.a {
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+img{margin-left: 415px;}
+
+h1{font-size: 45px;}

@@ -1,0 +1,113 @@
+#banner {
+    display: flex;
+    background-image: url(https://media2.giphy.com/media/FZGyMkbrq7jQXwneqw/200w.gif?cid=6c09b952ao6f1vep42taorqqj8ovb8no9oti1fu0zeby5kua&ep=v1_gifs_search&rid=200w.gif&ct=g);
+    border: 15px solid black;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    background-attachment: inherit;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.203);
+    color: rgb(241, 168, 95);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#nav {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.a {
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+h1 {
+    color: gray;
+}
+
+body {
+    margin: 0 auto;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#heading {
+    color: rgb(255, 255, 255);
+}
+
+#china {
+    width: 50%;
+    border-style: solid;
+    color: brown;
+    margin-left: 150px;
+}
+
+#china:hover {
+    width: 52%;
+    transition-duration: 1s;
+}
+
+#China-Info {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+
+#museum {
+    width: 50%;
+    border-style: solid;
+    color: blue;
+    margin-left: 450px;
+}
+
+#museum:hover {
+    width: 52%;
+    transition-duration: 1s;
+}
+
+.square {
+    width: 50%;
+    border-style: solid;
+    color: blueviolet;
+    margin-left: 120px;
+}
+
+.square:hover {
+    width: 52%;
+    transition-duration: 1s;
+}
+
+#times {
+    margin-left: 30px;
+}
+
+#history {
+    margin-left: 23px;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 45px;
+}

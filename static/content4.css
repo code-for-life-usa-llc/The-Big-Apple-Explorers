@@ -1,0 +1,59 @@
+.islam {
+    width: 500px;
+    height: 500px;
+    border: 20px ridge darkred;
+    margin-left: 630px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.synagogue {
+    width: 500px;
+    height: 500px;
+    border: 20px ridge darkred;
+    margin-left: 630px;
+}
+
+.church {
+    width: 500px;
+    height: 500px;
+    border: 20px ridge darkred;
+    margin-left: 630px;
+}
+
+#banner {
+    display: flex;
+    background-image: url(https://media1.giphy.com/media/YqhIK6Gbor6CLeloBq/giphy.gif?cid=6c09b952du0lmroiz4xtppr91vnh7n16fmfhy4zeuusiazqb&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    border: 15px solid black;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    background-attachment: inherit;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.203);
+    color: rgb(0, 72, 255);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#nav {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+#heading {
+    color: white;
+}
+h1{font-size: 45px;}

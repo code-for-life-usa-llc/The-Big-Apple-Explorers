@@ -1,0 +1,88 @@
+body {
+    background-color: #00FFD0;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+}
+#tag {
+    text-align: center;
+}
+#CORN {
+    background-color: #17CFCF;
+    color: #341E7D;
+    font-size: 29px;
+    border-style: solid;
+    border-color: #341E7D;
+    border-width: 9px;
+}
+#clover {
+    background-color: #0EE7C0;
+    font-size: 32px;
+    border-style: solid;
+    border-width: 9px;
+    border-color: #341E7D;
+}
+.f{
+    text-decoration: underline;
+    color: #341E7D;
+}
+.g{
+    color: #341E7D;
+}
+#h{
+    border-style:solid;
+    width: 25%;
+    border-width: 9px;
+    border-color: #341E7D;
+}
+.i{
+    text-align: center;
+    text-decoration: underline;
+    color: #341E7D;
+}
+#c{
+    text-decoration: underline;
+}
+
+
+
+
+
+#banner {
+    display: flex;
+    background-image: url(https://media0.giphy.com/media/2H9r8AKyYyecz9yyRq/giphy.gif?cid=6c09b952qacpp7spvtypoxmx0adjpdey6movm94hozpwwyul&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g);
+    border: 15px solid black;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    background-attachment: inherit;
+   
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.203);
+    color: rgb(247, 199, 9);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#nav {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.a {
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+
+#heading{color: white;}
+

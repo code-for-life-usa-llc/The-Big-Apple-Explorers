@@ -1,0 +1,104 @@
+#banner {
+    display: flex;
+    background-image: url(https://i.pinimg.com/originals/d5/b8/0e/d5b80e360e18b962b0406c9390f23d7d.gif);
+    border: 15px solid black;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+    background-attachment: inherit;
+   
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.203);
+    color: rgb(3, 126, 126);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#nav {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.a {
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+
+
+
+
+#heading {
+    color: antiquewhite;
+}
+
+body {
+    background-image: url(https://media.cntraveler.com/photos/64d1551e55a43e8d67d61af2/16:9/w_5616,h_3159,c_limit/Best%20Free%20things%20to%20do%20in%20NYC_anthony-delanoix-RokFUDqlTIo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-attachment: inherit;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#nav a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Times New Roman';
+background-color: rgba(169, 169, 169, 0.593);
+border-style: solid; color: black;
+}
+.carousel-container {
+    width: 800px; /* Adjust as needed */
+    overflow: hidden;
+    position: relative;
+margin: 0 auto;
+border-style:solid; color: white;
+border-width: 10px;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    flex: 0 0 100%; /* Each item takes 100% of the container width */
+    max-width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    display: block;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
